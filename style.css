@@ -1,99 +1,82 @@
 body {
-    padding: 5px;
+  padding: 5px;
 }
 
 .main__title {
-    padding: 10px;
-    color: magenta;
+  padding: 10px;
+  color: magenta;
 }
 
 .main__par {
-    padding: 10px;
+  padding: 10px;
 }
 
 @media (min-width: 1281px) {
-    .main__title {
-        font-size: 25px;
-    }
-    .main__par {
-        max-width: 170px;
-        font-size: 15px;
-    }
+  .main__title {
+    font-size: 30px;
+  }
+  .main__par {
+    max-width: 225px;
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .main__title {
-        font-size: 26px;
-    }
-    .main__par {
-        max-width: 180px;
-        font-size: 16px;
-    }
+  .main__title {
+    font-size: 29px;
+  }
+  .main__par {
+    max-width: 215px;
+    font-size: 19px;
+  }
 }
 
 @media (min-width: 961px) and (max-width: 1024px) {
-    .main__title {
-        font-size: 27px;
-    }
-    .main__par {
-        max-width: 190px;
-        font-size: 17px;
-    }
+  .main__title {
+    font-size: 28px;
+  }
+  .main__par {
+    max-width: 200px;
+    font-size: 18px;
+  }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-    .main__title {
-        font-size: 28x;
-    }
-    .main__par {
-        max-width: 200px;
-        font-size: 18px;
-    }
+  .main__title {
+    font-size: 27px;
+  }
+  .main__par {
+    max-width: 190px;
+    font-size: 17px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 640px) {
-    .main__title {
-        font-size: 29px;
-    }
-    .main__par {
-        max-width: 215px;
-        font-size: 19px;
-    }
+  .main__title {
+    font-size: 26px;
+  }
+  .main__par {
+    max-width: 180px;
+    font-size: 16px;
+  }
 }
-    
-    @media (min-width: 320px) and (max-width: 480px) {
-        .main__title {
-            font-size: 30px;
-        }
-        .main__par {
-            max-width: 335px;
-            font-size: 30px;
-        }
-        @media (min-width: 1281px) {
-            .main__title {
-                font-size: 25px;
-            }
-            .main__par {
-                max-width: 170px;
-                font-size: 15px;
-            }
-        } 
-    }
 
-    @media (max-width: 319px) {
-        .main__title {
-            font-size: 30px;
-        }
-        .main__par {
-            font-size: 30px;
-        }
-        @media (min-width: 1281px) {
-            .main__title {
-                font-size: 25px;
-            }
-            .main__par {
-                max-width: 170px;
-                font-size: 15px;
-            }
-        } 
-    }
+@media (min-width: 320px) and (max-width: 480px) {
+  .main__title {
+    font-size: 25px;
+  }
+  .main__par {
+    max-width: 170px;
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 319px) {
+  .main__title {
+    font-size: 25px;
+  }
+  .main__par {
+    max-width: 170px;
+    font-size: 15px;
+  }
+}

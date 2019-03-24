@@ -43,7 +43,7 @@ body {
 
 @media (min-width: 641px) and (max-width: 960px) {
   .main__title {
-    font-size: 27x;
+    font-size: 27px;
   }
   .main__par {
     max-width: 190px;
@@ -76,7 +76,7 @@ body {
     font-size: 25px;
   }
   .main__par {
-    max-width: 170ox;
+    max-width: 170px;
     font-size: 15px;
   }
 }
